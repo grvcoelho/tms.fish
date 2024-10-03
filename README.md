@@ -1,6 +1,6 @@
 # tms.fish
 
-A Fish shell plugin for managing git projects as tmux sessions
+A fish-shell plugin for managing git projects as tmux sessions
 
 ## What is tms.fish?
 
@@ -34,6 +34,12 @@ $ tms
 
 # Clone the repo if it doesn't exist, then open a tmux session for it
 $ tms username/repo
+
+# Navigate to a specific directory and create/switch to a tmux session
+$ tms ~/path/to/directory
+
+# Fuzzy search for a repository (just like z or fzf)
+$ tms partial_repo_name
 ```
 
 ## Other Work
